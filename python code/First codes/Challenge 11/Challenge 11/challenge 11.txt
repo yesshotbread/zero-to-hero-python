@@ -1,0 +1,7 @@
+Linda, 10
+Barbara, 29
+Monica, 38
+Jessica, 47
+Sarah, 56
+Gifty, 74
+Diana, 83

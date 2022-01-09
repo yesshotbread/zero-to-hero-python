@@ -1,10 +1,12 @@
-guests = []
 name = " "
+guest = []
 
-name = input("Enter guest name (Enter 'DONE' if complete): ")
-while name in guests != "DONE":
-    name = input("Enter guest name (Enter 'DONE' if complete): ")
-    guests.append(name)
 
-for name in guests:
-    print (guests)
+while name != "DONE":
+    name = input("Enter the name of the guest (Enter 'DONE' when list ends): ")
+    guest.append(name)
+
+    guest.sort()
+for x in guest:
+    if x != "DONE":
+        print(x)
